@@ -1,3 +1,6 @@
+//Integrantes del grupo:
+//Santiago Polanco
+//Fabian Carvajal
 int LED = 11;
 
 void setup() {
@@ -7,13 +10,13 @@ void setup() {
 void loop() {
   
     digitalWrite(LED, HIGH);
-    delay(1500);
+    delay(15000);
+    digitalWrite(LED, LOW);
+    delay(20000);
+    digitalWrite(LED, HIGH);
+    delay(15000);
     digitalWrite(LED, LOW);
     delay(2000);
-    digitalWrite(LED, HIGH);
-    delay(1500);
-    digitalWrite(LED, LOW);
-    delay(500);
   
 }
 
